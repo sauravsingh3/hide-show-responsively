@@ -1,0 +1,21 @@
+@-moz-viewport { width: divice-width; scale: 1; }
+@-ms-viewport { width: divice-width; scale: 1; }
+@-o-viewport { width: divice-width; scale: 1; }
+@-webkit-viewport { width: divice-width; scale: 1; }
+@viewport { width: divice-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.dino {
+  display: inline-block;
+}
+
+img {
+  width: 100%;
+}
